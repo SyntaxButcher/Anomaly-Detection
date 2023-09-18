@@ -22,7 +22,7 @@ Adam optimizer was used with a learning rate of 0.0001.
 Early stopping was implemented to prevent overfitting.
 
 **Evaluation:**
-A threshold for anomaly detection was set using the 95th percentile of the reconstruction error on the training data.
+A threshold for anomaly detection was set using the 99th percentile of the reconstruction error on the training data.
 The model's performance was evaluated on a separate test dataset.
 Metrics such as accuracy, precision, recall, and F1 score were computed.
 
